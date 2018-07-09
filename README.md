@@ -17,3 +17,7 @@
 
 
 Для валидации кода предпочтительно использовать настроенный eslint https://www.npmjs.com/package/eslint-config-rambler
+
+ЗАПУСК
+
+npm i && npm run start
