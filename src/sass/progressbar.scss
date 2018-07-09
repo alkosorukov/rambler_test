@@ -1,0 +1,19 @@
+.progressbar {
+    color: #fff;
+    height: 48px;
+    display: flex;
+}
+
+.progressbar__bar {
+    background: rgba(255,255,255,0.5);
+    width: 200px;
+    border-radius: 2px;
+    height: 8px;
+    margin-top: 20px;
+}
+
+.progressbar__progress {
+    margin-right: 14px;
+    height: 48px;
+    line-height: 48px;
+}

@@ -1,0 +1,59 @@
+.question__radio,
+.question__checkbox {
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #999;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    position: relative;
+    vertical-align: text-top;
+    transition: all 0.1s linear;
+
+    &:after {
+        border: 2px solid #fff;
+        border-top: none;
+        border-left: none;
+        width: 7px;
+        height: 12px;
+        position: absolute;
+        top: 1px;
+        left: 7px;
+        content: " ";
+        box-sizing: border-box;
+        opacity: 0;
+        transform: rotate(45deg);
+        transition: all 0.1s linear;
+    }
+}
+.question__radio--checked,
+.question__checkbox--checked {
+    background: #333;
+    border-color: #333;
+    &:after{
+        opacity: 1;
+    }
+}
+
+.question__label {
+    cursor: pointer;
+}
+
+.question__radio-input,
+.question__checkbox-input {
+    display: none;
+}
+
+.question__radio {
+    border-radius: 50%;
+
+    &:after {
+        background: #fff;
+        width: 8px;
+        height: 8px;
+        top: 6px;
+        left: 6px;
+        border-radius: 50%;
+    }
+}

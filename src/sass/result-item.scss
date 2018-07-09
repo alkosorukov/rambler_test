@@ -1,0 +1,38 @@
+.quz-result-item__header {
+    margin: 0 -10px;
+}
+
+.quz-result-item {
+    padding: 0 10px;
+    background: #fff;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.quz-result-item__h4 {
+    background: #00bf6f;
+    justify-content: space-between;    
+    color: #fff;
+    display: flex;
+    margin: 0;
+    padding: 4px 10px;
+}
+
+.quz-result-item__h6 {
+    margin: 5px 10px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.quz-result-item__answer {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.quz-result-item__answer--correct {
+    color: #00bf6f;
+}
+
+.quz-result-item__answer--incorrect {
+    color: #671e75;
+    text-decoration: line-through;
+}
